@@ -17,3 +17,12 @@ chem <- merge(chem, treat)
 
 
 write.csv(chem, "calculated_data/leaf_chemistry.csv", row.names = FALSE)
+
+
+
+##basic plots
+
+boxplot(percN ~ year, data=chem)
+boxplot(perC ~ year, data=chem)
+boxplot(c13~year, data=chem)
+boxplot(n15~year, data=chem)

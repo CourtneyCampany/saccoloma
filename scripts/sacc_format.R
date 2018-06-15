@@ -4,18 +4,17 @@ chlro <- read.csv("saccoloma/sacc_chl.csv")
 photo <- read.csv("saccoloma/sacc_photo.csv")
 
 
-addleafage_func <- function(x){
-  x$leafage <- ifelse(x$Color == "w", 1, 99)
-  x$leafage <- ifelse(x$Color == "o", 2, x$leafage)
-  x$leafage <- ifelse(x$Color == "y", 3, x$leafage)
-  x$leafage <- ifelse(x$Color == "p", 4, x$leafage)
+addleafage_func <- function(x) {
+  x$leafage <- ifelse(x$Color == "w", 2017, "noage")
+  x$leafage <- ifelse(x$Color == "o", 2016, x$leafage)
+  x$leafage <- ifelse(x$Color == "y", 2015, x$leafage)
+  x$leafage <- ifelse(x$Color == "p", 2016.5, x$leafage)
 return(x)
   }
 
 chlro <- addleafage_func(chlro)
 photo <- addleafage_func(photo)
 
-years <- c("Year 1", "Year 2", "Year 3", "Year 4")
 
 library(doBy)
 photo_agg <- summaryBy(Photo + Cond + Ci + Trmmol ~ Indiv + leafage, data=photo,

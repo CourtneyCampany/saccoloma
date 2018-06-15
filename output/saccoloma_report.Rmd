@@ -7,6 +7,26 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Methods
+
+
+##Site and Species Surveys
+
+This study was located at La Selva Biological Research Station in Heredia, Costa Rica (84⁰00’12W, 10⁰25’52N). This site is a 600 hectare wet tropical forest, with elevation ranging from 35-137m above sea level. The site receives 4m of annual rainfall with a moderate dry season. Annual mean temperatures fluctuates between between 24-27⁰C, while daily temperatures can fluctuate up to 12⁰C (McDade et al. 1994). At least once per year (Diedra personnal communication) newly formed pinnae of Saccoloma spp were color tagged according to year. Pinnae generally lasted from 3-4 years, with dissappearance mostly occuring from stem fall distubance. 
+
+A survey of physiological and stoichiometric parameters was conducted for x individuals of. We surveyed in situ gas exchange during mid-morning hours. For leaf gas exchange measurements, a LiCor 6400 portable photosynthesis system (LiCor BioSciences) was used with the standard leaf chamber (2 x 3 cm) equipped with blue-red light emitting diodes. The CO2 mixer  was set to 400 μmol·m-2·sec-1 and leaf temperature was maintained at 30℃. Gas exchange parameters were logged once CO2 and water vapor fluxes were stable. Net photosynthetic rate (An) and stomatal conductance (gs) were logged at a standard photosynthetic photon flux density (PPFD) level of 500 μmol·m-2·sec-1,which has been previously shown to produce maximum photosynthetic rates for understory terrestrial plants (Watkins et al 2010).
+
+
+Foliar tissue was collected following gas exchange measurements and used for nutrient analyses. Samples were dried to a constant mass and ground to a powder. Carbon and nitrogen analyses were measured using a Cornell machine, with the percentage of carbon and nitrogen in samples calculated by comparison with certified standards.
+ 
+Photosynthetic nitrogen use efficiency (PNUE) was defined as the ratio of photosynthesis to leaf N content on a mass basis.
+
+
+##Chlorophyll Content
+
+For each Selaginella species, subsamples of fresh foliar tissue used during gas exchange measurements were used to calculate chlorophyll content (Chl). Get specs for cholorpphyll from Yarmilla
+
+
 ```{r format sacc, echo=FALSE}
 chlro <- read.csv("sacc_chl.csv")
 photo <- read.csv("sacc_photo.csv")
