@@ -21,11 +21,8 @@ photo_agg$iwue <- with(photo_agg, Photo/Trmmol)
 ##26 is a bad plant
 photo_clean <- photo_agg[photo_agg$Indiv != 26, ]
 
-write.csv(photo_clean, "calculated_data/leaf_gasexchange.csv", row.names = FALSE)
+write.csv(photo_clean, "calculated_data/leaf_gasexchange_clean.csv", row.names = FALSE)
+write.csv(photo_agg, "calculated_data/leaf_gasexchange.csv", row.names = FALSE)
 
-boxplot(Photo ~ leafage, data=photo_clean)
-boxplot(Cond ~ leafage, data=photo_clean[photo_clean$Cond > 0 & photo_clean$Cond < .5,])
-boxplot(iwue~leafage, data=photo_clean[photo_clean$iwue > 0,])
-boxplot(Ci~leafage, data=photo_agg[photo_agg$Ci > 0,])
 
 

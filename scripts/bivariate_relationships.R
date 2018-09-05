@@ -1,5 +1,7 @@
 source("plot_objects.R")
 
+alldata <- read.csv("calculated_data/alldata.csv")
+
 leafchem <- read.csv("calculated_data/leaf_chemistry.csv")
 lma <- read.csv("raw_data/sacc_lma.csv")
 photo <- read.csv("calculated_data/leaf_gasexchange.csv")
@@ -11,7 +13,7 @@ photo$Color <- toupper(photo$Color)
 photo$id <- as.factor(paste(photo$Indiv, photo$Color, sep="-"))
 names(photo)[3] <- "color"
 
-lma$lma <- with(lma, leaf_mass_g/leaf_area_cm2)
+lma$lma <- with(lma, (leaf_mass_g/leaf_area_cm2)*10000) #g m-2
 lma$Color <- toupper(lma$Color)
 lma$id <- as.factor(paste(lma$Indiv, lma$Color, sep="-"))
 
