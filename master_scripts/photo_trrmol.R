@@ -4,7 +4,8 @@ source("plot_objects.R")
 source("functions.R")
 
 ##look for outliers
-boxplot(Trmmol ~ leafage, data=alldata_no26)
+boxplot(Trmmol ~ leafage, data=alldata)
+boxplot(Photo ~ leafage, data=alldata)
 
 
 #Here we plot photosynthesis vs chlorophyll
