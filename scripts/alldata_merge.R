@@ -39,5 +39,6 @@ traits4 <- frond_func(traits3)
 traits4$sla <- with(traits4, 1/lma)
 traits4$amass <- with(traits4, (Photo*1000) * sla) ####nmols CO2 g s
 traits4$nmass <- with(traits4, percN*10) #mg g-1 (g g-1 = .01 (1%) and 1000)
+traits4$pnue <- with(traits4, amass/nmass)
 
 write.csv(traits4, "calculated_data/alldata.csv", row.names=FALSE)
