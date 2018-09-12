@@ -62,7 +62,7 @@ A survey of physiological and stoichiometric parameters was conducted on all pre
 
 ## Leaf chemistry
 
-Foliar tissue was collected following gas exchange measurements and used for nutrient and istopte analyses. Samples were dried to a constant mass and ground to a powder. Foliar $\delta$^13^C, carbon content and nitrogen content were measured using a Cornell machine (insert specs). The percentage of carbon and nitrogen in samples was calculated by comparison with certified standards and and isotopic signatures are reported relative to the standard Vienna Pee Dee Belemnite scale. Photosynthetic nitrogen use efficiency (PNUE) was defined as the ratio of photosynthesis to leaf N content on a mass basis.
+Foliar tissue was collected following gas exchange measurements and used for nutrient and istopte analyses. Samples were dried to a constant mass and ground to a powder. Foliar $\delta$^13^C, carbon content and nitrogen content were measured using a Thermo Delta V isotope ratio mass spectrometer interfaced to a NC2500 elemental analyzer. The percentage of carbon and nitrogen in samples was calculated by comparison with certified standards and isotopic signatures are reported relative to the primary standard Vienna Pee Dee Belemnite scale. Photosynthetic nitrogen use efficiency (PNUE) was defined as the ratio of photosynthesis to leaf N content on a mass basis.
 
 ## Chlorophyll content
 
