@@ -66,7 +66,7 @@ Foliar tissue was collected following gas exchange measurements and used for nut
 
 ## Chlorophyll content
 
-For each Selaginella species, subsamples of fresh foliar tissue used during gas exchange measurements were used to calculate chlorophyll content (Chl). Specs for cholorphyll meter requested from Pitterman.
+Prior to gas exchange, samples of selected fresh foliar tissue were analyzed for chlorophyll content, with a CCM-300 portable chlorophyll meter (Opti-Sciences, NH, USA)  A composite (n=3) of single point chlorophyll content (mg m^-2^) readings over 3mm diameter circles across each pinnae were measured.
 
 # Results
 
